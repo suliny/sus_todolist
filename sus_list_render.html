@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Su's (Very Pink) To-Do List</title>
+    <!-- Stylesheet -->
+    <link href="sus_list.css" type="text/css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Muli:200,300,400' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div id="entireList">
+      <div id="titleBanner">
+        <h1>My To-Do List</h1>
+      </div>
+      <form id="newItemForm">
+        <input type="text" id="addItemField" placeholder="New to-do..." />
+        <span id="newItemButton">
+          <input type="submit" id="addItem" class="btn" value="add"/>
+        </span>
+      </form>
+      <div id="taskBody">
+
+        <!--
+        <div id="active">
+          <p>Get them done soon..!</p>
+          <ul id="activeList">
+            <li class="active_item">
+              <label class="suCheckbox">
+                <div class="suCheckbox-checkboxContainer">
+                  <input type="checkbox" class="suCheckbox-checkbox">
+                  <div class="suCheckbox-checkmark"></div>
+                </div>
+                <span class="suCheckbox-label">Item 1...</span>
+              </label>
+            </li>
+            <li class="active_item">
+              <label class="suCheckbox">
+                <div class="suCheckbox-checkboxContainer">
+                  <input type="checkbox" class="suCheckbox-checkbox">
+                  <div class="suCheckbox-checkmark"></div>
+                </div>
+                <span class="suCheckbox-label">Item 2...</span>
+              </label>
+            </li>
+            <li class="active_item">
+              <label class="suCheckbox">
+                <div class="suCheckbox-checkboxContainer">
+                  <input type="checkbox" class="suCheckbox-checkbox">
+                  <div class="suCheckbox-checkmark"></div>
+                </div>
+                <span class="suCheckbox-label">Item 3...</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div id="completed">
+        <p>Good job with these!</p>
+          <ul id="completedList">
+            <li class="completed_item">
+              <label class="suCheckbox">
+                <div class="suCheckbox-checkboxContainer">
+                  <input type="checkbox" class="suCheckbox-checkbox" checked>
+                  <div class="suCheckbox-checkmark"></div>
+                </div>
+                <span class="suCheckbox-label">Completed thing 1...</span>
+              </label>
+            </li>
+            <li class="completed_item">
+              <label class="suCheckbox">
+                <div class="suCheckbox-checkboxContainer">
+                  <input type="checkbox" class="suCheckbox-checkbox" checked>
+                  <div class="suCheckbox-checkmark"></div>
+                </div>
+                <span class="suCheckbox-label">Completed thing 2...</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+        -->
+      </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="sus_list_render.js"></script>
+  </body>
+</html>
